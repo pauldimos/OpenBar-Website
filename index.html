@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OpenBar – Legal Help for All</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <h1>OpenBar</h1>
+        <p class="mission">
+            Connecting lawyers to those who cannot afford legal counsel.
+        </p>
+        <a class="donate-btn" href="YOUR_DONATION_LINK_HERE" target="_blank">
+            Donate Now
+        </a>
+    </section>
+
+    <!-- SIGNUP FORM -->
+    <section class="signup">
+        <h2>Stay Updated</h2>
+        <p>Sign up to be notified when OpenBar officially launches.</p>
+
+        <form action="https://formsubmit.co/YOUR_EMAIL_HERE" method="POST">
+
+            <!-- Extra protection / settings -->
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_subject" value="New OpenBar Signup!">
+
+            <label>Name</label>
+            <input type="text" name="name" placeholder="Your Name" required>
+
+            <label>Phone</label>
+            <input type="text" name="phone" placeholder="Your Phone Number" required>
+
+            <label>Email</label>
+            <input type="email" name="email" placeholder="Your Email" required>
+
+            <label>Comments</label>
+            <textarea name="comments" placeholder="Tell us anything you'd like..."></textarea>
+
+            <button type="submit">Notify Me</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
